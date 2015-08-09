@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/tasks-rest-api/tasks-rest-api.iml" filepath="$PROJECT_DIR$/tasks-rest-api/tasks-rest-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-rest-controller/tasks-rest-controller.iml" filepath="$PROJECT_DIR$/tasks-rest-controller/tasks-rest-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-rest-impl/tasks-rest-impl.iml" filepath="$PROJECT_DIR$/tasks-rest-impl/tasks-rest-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks-rest-server/tasks-rest-server.iml" filepath="$PROJECT_DIR$/tasks-rest-server/tasks-rest-server.iml" />
+    </modules>
+  </component>
+</project>
