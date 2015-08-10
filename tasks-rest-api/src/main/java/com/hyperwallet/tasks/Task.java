@@ -6,6 +6,8 @@ import org.hibernate.validator.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 
 /**
+ * The <code>Task</code> class represents attributes/properties of a task.
+ *
  * @author Srikanthan Parameshwaran
  * @version 1.0.0
  * @since 1.0.0

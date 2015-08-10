@@ -1,0 +1,6 @@
+com\hyperwallet\tasks\exceptions\ErrorResponse.class
+com\hyperwallet\tasks\Task.class
+com\hyperwallet\tasks\exceptions\TaskNotFoundException.class
+com\hyperwallet\tasks\exceptions\TasksServiceInternalErrorException.class
+com\hyperwallet\tasks\exceptions\TaskExistsException.class
+com\hyperwallet\tasks\TasksService.class
