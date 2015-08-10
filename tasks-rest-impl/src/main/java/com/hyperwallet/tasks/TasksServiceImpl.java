@@ -24,8 +24,8 @@ public class TasksServiceImpl implements TasksService {
         return tasksService.getTask(taskId);
     }
 
-    public void createNewTask(String taskId, Task task) {
-        tasksService.createNewTask(taskId, task);
+    public void addTask(String taskId, Task task) {
+        tasksService.addTask(taskId, task);
     }
 
     public void updateTask(String taskId, Task task) {

@@ -1,6 +1,8 @@
 package com.hyperwallet.tasks;
 
-import javax.validation.constraints.Max;
+import org.hibernate.validator.constraints.NotBlank;
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.validation.constraints.NotNull;
 
 /**
@@ -9,16 +11,14 @@ import javax.validation.constraints.NotNull;
  * @since 1.0.0
  */
 public class Task {
-    @NotNull(message = " adfasdfasdf message")
     private String Id;
 
-    @NotNull(message = "adsfasdfasfas titile")
+    @NotBlank(message = "Please enter a valid task title.")
     private String title;
 
-    @NotNull(message = "asdfasdfasd description")
+    @NotBlank(message = "Please enter a valid task description.")
     private String description;
 
-    @NotNull (message = "")
     private boolean completed;
 
     public Task() {

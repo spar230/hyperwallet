@@ -2,7 +2,6 @@ package com.hyperwallet.tasks;
 
 import com.wordnik.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Required;
 import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -33,8 +32,8 @@ public class TasksServiceController implements TasksService {
 
     @ApiOperation(value = "Create a new task with the given task id")
     @RequestMapping(method = RequestMethod.POST, value = "/api/v1/tasks/{taskId}", consumes = {MediaType.APPLICATION_JSON_VALUE})
-    public void createNewTask(@PathVariable("taskId") String taskId, @Validated @RequestBody Task task) {
-        tasksService.createNewTask(taskId, task);
+    public void addTask(@PathVariable("taskId") String taskId, @Validated @RequestBody Task task) {
+        tasksService.addTask(taskId, task);
     }
 
     @ApiOperation(value = "Update the task with the given task id")

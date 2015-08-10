@@ -12,7 +12,7 @@ public interface TasksService {
 
     public Task getTask(String taskId);
 
-    public void createNewTask(String taskId, Task task);
+    public void addTask(String taskId, Task task);
 
     public void updateTask(String taskId, Task task);
 
